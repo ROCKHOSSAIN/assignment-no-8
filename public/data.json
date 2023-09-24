@@ -1,0 +1,136 @@
+[   {
+  "id": 1,
+  "image": "https://i.ibb.co/B47C7L8/Health.png",
+  "title": "Clean water for children",
+  "category": "Health",
+  "description": "Provide clean and safe drinking water to children in need. Your donation can make a significant difference in improving the health and well-being of children in underserved communities.",
+  "backgroundColor": "#DFF2E4",
+  "textColor": "#4B674A",
+  "categoryBackgroundColor": "#A2C39A",
+  "donate": 55
+},
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/BcZvYPB/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "description": "Kickstart your educational journey with our comprehensive Educational Starter Kit. This package includes essential textbooks, notebooks, and study materials tailored to your course. It's perfect for students of all ages and levels, helping you achieve academic success.",
+      "backgroundColor": "#C7E1EA",
+      "textColor": "#1E3946",
+      "categoryBackgroundColor": "#8FBAC8",
+      "donate": 35
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/SRBKND1/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "description": "Donate your gently-used clothing items to help those in need. Join our clothing drive and make a positive impact on the lives of individuals and families who require clothing assistance.",
+      "backgroundColor": "#F2E9E4",
+      "textColor": "#634D4D",
+      "categoryBackgroundColor": "#C8A1A1",
+      "donate": 38
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/BZJvcr5/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "description": "Help us provide better food options for everyone in the community. Join our mission to eliminate hunger by supporting our food programs and initiatives.",
+      "backgroundColor": "#F2DDD9",
+      "textColor": "#7A594F",
+      "categoryBackgroundColor": "#D9A697",
+      "donate": 70
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/BZJvcr5/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "description": "Help us provide better food options for everyone in the community. Join our mission to eliminate hunger by supporting our food programs and initiatives.",
+      "backgroundColor": "#F2DDD9",
+      "textColor": "#7A594F",
+      "categoryBackgroundColor": "#D9A697",
+      "donate": 70
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/SRBKND1/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "description": "Donate your gently-used clothing items to help those in need. Join our clothing drive and make a positive impact on the lives of individuals and families who require clothing assistance.",
+      "backgroundColor": "#F2E9E4",
+      "textColor": "#634D4D",
+      "categoryBackgroundColor": "#C8A1A1",
+      "donate": 38
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/BcZvYPB/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "description": "Kickstart your educational journey with our comprehensive Educational Starter Kit. This package includes essential textbooks, notebooks, and study materials tailored to your course. It's perfect for students of all ages and levels, helping you achieve academic success.",
+      "backgroundColor": "#C7E1EA",
+      "textColor": "#1E3946",
+      "categoryBackgroundColor": "#8FBAC8",
+      "donate": 35
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/B47C7L8/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "description": "Provide clean and safe drinking water to children in need. Your donation can make a significant difference in improving the health and well-being of children in underserved communities.",
+      "backgroundColor": "#DFF2E4",
+      "textColor": "#4B674A",
+      "categoryBackgroundColor": "#A2C39A",
+      "donate": 55
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/B47C7L8/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "description": "Provide clean and safe drinking water to children in need. Your donation can make a significant difference in improving the health and well-being of children in underserved communities.",
+      "backgroundColor": "#DFF2E4",
+      "textColor": "#4B674A",
+      "categoryBackgroundColor": "#A2C39A",
+      "donate": 55
+    },
+        {
+          "id": 10,
+          "image": "https://i.ibb.co/BcZvYPB/Education.png",
+          "title": "Good education",
+          "category": "Education",
+          "description": "Kickstart your educational journey with our comprehensive Educational Starter Kit. This package includes essential textbooks, notebooks, and study materials tailored to your course. It's perfect for students of all ages and levels, helping you achieve academic success.",
+          "backgroundColor": "#C7E1EA",
+          "textColor": "#1E3946",
+          "categoryBackgroundColor": "#8FBAC8",
+          "donate": 35
+        },
+        {
+          "id": 11,
+          "image": "https://i.ibb.co/SRBKND1/Clothing.png",
+          "title": "Used Clothing Drive",
+          "category": "Clothing",
+          "description": "Donate your gently-used clothing items to help those in need. Join our clothing drive and make a positive impact on the lives of individuals and families who require clothing assistance.",
+          "backgroundColor": "#F2E9E4",
+          "textColor": "#634D4D",
+          "categoryBackgroundColor": "#C8A1A1",
+          "donate": 38
+        },
+        {
+          "id": 12,
+          "image": "https://i.ibb.co/BZJvcr5/Food.png",
+          "title": "Better Food for Everyone",
+          "category": "Food",
+          "description": "Help us provide better food options for everyone in the community. Join our mission to eliminate hunger by supporting our food programs and initiatives.",
+          "backgroundColor": "#F2DDD9",
+          "textColor": "#7A594F",
+          "categoryBackgroundColor": "#D9A697",
+          "donate": 70
+        }
+
+      
+  ]
+  

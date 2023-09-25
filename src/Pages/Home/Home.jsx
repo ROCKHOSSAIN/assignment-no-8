@@ -1,15 +1,18 @@
-import React from 'react';
-import Banner from '../../Components/Banner/Banner';
 import Campaigns from '../../Components/Campaigns/Campaigns';
 import { useLoaderData } from 'react-router-dom';
+import Banner from '../../Components/Banner/Banner';
 
 const Home = () => {
     const campaigns = useLoaderData();
-    console.log(campaigns)
+    // console.log(campaigns)
     
     return (
         <div>
-           <Banner></Banner>
+            
+
+            <Banner></Banner>
+        
+
            <Campaigns campaigns={campaigns}></Campaigns>
            
         </div>

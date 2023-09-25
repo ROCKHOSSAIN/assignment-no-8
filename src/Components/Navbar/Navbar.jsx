@@ -6,7 +6,7 @@ const Navbar = () => {
                 <img src="../../../images/Logo.png" alt="" />
             </div>
             <nav>
-                <ul className="flex gap-9 mt-10 md:mt-0">
+                <ul className="flex gap-9 mt-4 md:mt-0">
 
                     <NavLink
                         to="/"

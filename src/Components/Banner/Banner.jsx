@@ -1,13 +1,16 @@
 
 const Banner = () => {
     return (
-        <div>
-            <h2 className="text-5xl text-center font-bold text-black mt-20">I Grow By Helping People In Need</h2>
-            <div className="form-control ">
+        <div className="bg-[url('https://i.ibb.co/tPz3tK9/Rectangle-4281.png')]  bg-contain h-[50vh]  bg-no-repeat relative ">
+            <div className="absolute left-10 md:left-64 mt-10 md:mt-32">
+
+            <h2 className="text-xl md:text-5xl text-center font-bold text-black mt-2">I Grow By Helping People In Need</h2>
+            </div>
+            <div className="form-control absolute left-16 md:left-96 mt-12 md:mt-44">
                 <div className="input-group flex items-center justify-center mt-10 px-5 md:px-0">
                     <input type="text" placeholder="Search here" className="input input-bordered w-full md:w-[400px] bg-white" />
                     <button className="btn  bg-[#FF444A] text-white border-none hover:bg-[#FF444A]">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                        Search
                     </button>
                 </div>
 

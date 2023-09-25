@@ -2,7 +2,9 @@
 const Banner = () => {
     return (
         <div className="bg-[url('https://i.ibb.co/tPz3tK9/Rectangle-4281.png')]  bg-contain h-[50vh]  bg-no-repeat relative ">
-            <div className="absolute left-10 md:left-64 mt-10 md:mt-32">
+            <div className="hero-overlay bg-white bg-opacity-90">
+
+            <div className="absolute  left-10 md:left-64 mt-10 md:mt-32">
 
             <h2 className="text-xl md:text-5xl text-center font-bold text-black mt-2">I Grow By Helping People In Need</h2>
             </div>
@@ -14,6 +16,7 @@ const Banner = () => {
                     </button>
                 </div>
 
+            </div>
             </div>
            
         </div>

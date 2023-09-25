@@ -9,6 +9,7 @@
     "textColor": "#0052FF",
     "categoryBackgroundColor": "rgba(0, 82, 255, 0.20)",
     "categoryTextColor":"#0052FF",
+    "TextandButtonColor": "#0052FF",
     "donate": 55
   },
   {
@@ -17,10 +18,11 @@
     "title": "Good education",
     "category": "Education",
     "description": "Kickstart your educational journey with our comprehensive Educational Starter Kit. This package includes essential textbooks, notebooks, and study materials tailored to your course. It's perfect for students of all ages and levels, helping you achieve academic success.",
-    "backgroundColor": "#C7E1EA",
+    "backgroundColor": "rgb(255,227,228)",
     "textColor": "#FF444A",
-    "categoryBackgroundColor": "rgba(255, 68, 74, 0.20)",
+    "categoryBackgroundColor": "rgba(255, 68, 74, 0.15)",
     "categoryTextColor":"#FF444A",
+    "TextandButtonColor": "#0052FF",
     "donate": 35
   },
   {
@@ -29,10 +31,11 @@
     "title": "Used Clothing Drive",
     "category": "Clothing",
     "description": "Donate your gently-used clothing items to help those in need. Join our clothing drive and make a positive impact on the lives of individuals and families who require clothing assistance.",
-    "backgroundColor": "#F2E9E4",
+    "backgroundColor": "rgba(121, 194, 63, 0.15)",
     "textColor": "#79C23F",
     "categoryBackgroundColor": "rgba(121, 194, 63, 0.20)",
     "categoryTextColor":"#79C23F",
+    "TextandButtonColor": "#0052FF",
     "donate": 38
   },
   {
@@ -41,10 +44,11 @@
     "title": "Better Food for Everyone",
     "category": "Food",
     "description": "Help us provide better food options for everyone in the community. Join our mission to eliminate hunger by supporting our food programs and initiatives.",
-    "backgroundColor": "#F2DDD9",
+    "backgroundColor": "rgb(254,234,227)",
     "textColor": "#F87147",
-    "categoryBackgroundColor": "rgba(248, 113, 71, 0.20)",
+    "categoryBackgroundColor": "rgba(248, 113, 71, 0.15)",
     "categoryTextColor":"#F87147",
+    "TextandButtonColor": "#0052FF",
     "donate": 70
   },
   {
@@ -53,10 +57,11 @@
     "title": "Better Food for Everyone",
     "category": "Food",
     "description": "Help us provide better food options for everyone in the community. Join our mission to eliminate hunger by supporting our food programs and initiatives.",
-    "backgroundColor": "#F2DDD9",
+    "backgroundColor": "rgb(254,234,227)",
     "textColor": "#F87147",
-    "categoryBackgroundColor": "rgba(248, 113, 71, 0.20)",
+    "categoryBackgroundColor": "rgba(248, 113, 71, 0.15)",
     "categoryTextColor":"#F87147",
+    "TextandButtonColor": "#0052FF",
     "donate": 70
   },
   {
@@ -65,10 +70,11 @@
     "title": "Used Clothing Drive",
     "category": "Clothing",
     "description": "Donate your gently-used clothing items to help those in need. Join our clothing drive and make a positive impact on the lives of individuals and families who require clothing assistance.",
-    "backgroundColor": "#F2E9E4",
+    "backgroundColor": "rgba(121, 194, 63, 0.15)",
     "textColor": "#79C23F",
     "categoryBackgroundColor": "rgba(121, 194, 63, 0.20)",
     "categoryTextColor":"#79C23F",
+    "TextandButtonColor": "#0052FF",
     "donate": 38
   },
   {
@@ -77,10 +83,11 @@
     "title": "Good education",
     "category": "Education",
     "description": "Kickstart your educational journey with our comprehensive Educational Starter Kit. This package includes essential textbooks, notebooks, and study materials tailored to your course. It's perfect for students of all ages and levels, helping you achieve academic success.",
-    "backgroundColor": "#C7E1EA",
+    "backgroundColor": "rgb(255,227,228)",
     "textColor": "#FF444A",
-    "categoryBackgroundColor": "rgba(255, 68, 74, 0.20)",
+    "categoryBackgroundColor": "rgba(255, 68, 74, 0.15)",
     "categoryTextColor":"#FF444A",
+    "TextandButtonColor": "#0052FF",
     "donate": 35
   },
   {
@@ -93,7 +100,8 @@
     "textColor": "#0052FF",
     "categoryBackgroundColor": "rgba(0, 82, 255, 0.20)",
     "categoryTextColor":"#0052FF",
-    "donate": 55
+    "TextandButtonColor": "#0052FF",
+    "donate": 195
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
     "textColor": "#0052FF",
     "categoryBackgroundColor": "rgba(0, 82, 255, 0.20)",
     "categoryTextColor":"#0052FF",
-    "donate": 55
+    "TextandButtonColor": "#0052FF",
+    "donate": 155
   },
   {
     "id": 10,
@@ -113,11 +122,12 @@
     "title": "Good education",
     "category": "Education",
     "description": "Kickstart your educational journey with our comprehensive Educational Starter Kit. This package includes essential textbooks, notebooks, and study materials tailored to your course. It's perfect for students of all ages and levels, helping you achieve academic success.",
-    "backgroundColor": "#C7E1EA",
+    "backgroundColor": "rgb(255,227,228)",
     "textColor": "#FF444A",
-    "categoryBackgroundColor": "rgba(255, 68, 74, 0.20)",
+    "categoryBackgroundColor": "rgba(255, 68, 74, 0.15)",
     "categoryTextColor":"#FF444A",
-    "donate": 35
+    "TextandButtonColor": "#0052FF",
+    "donate": 75
   },
   {
     "id": 11,
@@ -125,11 +135,12 @@
     "title": "Used Clothing Drive",
     "category": "Clothing",
     "description": "Donate your gently-used clothing items to help those in need. Join our clothing drive and make a positive impact on the lives of individuals and families who require clothing assistance.",
-    "backgroundColor": "#F2E9E4",
+    "backgroundColor": "rgba(121, 194, 63, 0.15)",
     "textColor": "#79C23F",
     "categoryBackgroundColor": "rgba(121, 194, 63, 0.20)",
     "categoryTextColor":"#79C23F",
-    "donate": 38
+    "TextandButtonColor": "#0052FF",
+    "donate": 238
   },
   {
     "id": 12,
@@ -137,10 +148,11 @@
     "title": "Better Food for Everyone",
     "category": "Food",
     "description": "Help us provide better food options for everyone in the community. Join our mission to eliminate hunger by supporting our food programs and initiatives.",
-    "backgroundColor": "#F2DDD9",
+    "backgroundColor": "rgb(254,234,227)",
     "textColor": "#F87147",
-    "categoryBackgroundColor": "rgba(248, 113, 71, 0.20)",
+    "categoryBackgroundColor": "rgba(248, 113, 71, 0.15)",
     "categoryTextColor":"#F87147",
-    "donate": 70
+    "TextandButtonColor": "#0052FF",
+    "donate": 40
   }
 ]

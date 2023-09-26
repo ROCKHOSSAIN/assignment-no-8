@@ -5,6 +5,7 @@ const Donations = () => {
     const [detail, setdetails]= useState([])
     const [noFound,setNoFound] = useState(false);
     const[isShow,setIsShow] = useState(false);
+    const [datalength, setDataLength] = useState(4);
     useEffect(()=>{
         const detailsItems = JSON.parse(localStorage.getItem('donations'));
         if(detailsItems){
@@ -23,17 +24,18 @@ const Donations = () => {
                 noFound?<p className='h-[80vh] flex justify-center items-center'>{noFound}</p> : 
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
                     {
-                        isShow ? detail.map(detail=><DetailCards key={detail.id} detail={detail}></DetailCards>) 
-                        :
-                        detail.slice(0,4).map(detail=><DetailCards key={detail.id} detail={detail}></DetailCards>)
+                        // isShow ? detail.map(detail=><DetailCards key={detail.id} detail={detail}></DetailCards>) 
+                        // :
+                        detail.slice(0,datalength).map(detail=><DetailCards key={detail.id} detail={detail}></DetailCards>)
                     }
                 </div>
             }
-                <button onClick={()=>setIsShow(!isShow)} className='mt-10 p-5 bg-green-600 block mx-auto'>
-                    {
-                        isShow ? "See Less" :"See All"
-                    }
+            <div className={datalength === detail.length && 'hidden'}>
+
+                <button onClick={()=>setDataLength(detail.length)} className='mt-10 p-5 bg-green-600 block mx-auto'>
+                   Show All
                 </button>
+            </div>
 
 
         </div>

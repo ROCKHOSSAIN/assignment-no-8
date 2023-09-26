@@ -1,5 +1,6 @@
 import { useLoaderData, useParams } from 'react-router-dom';
 import Detail from '../Detail/Detail';
+import Statistics from '../Statistics/Statistics';
 
 const DetailsPage = () => {
     const { id } = useParams();
@@ -12,7 +13,6 @@ const DetailsPage = () => {
 
 
             <Detail detail={showDetail}></Detail>
-
 
         </div>
     );

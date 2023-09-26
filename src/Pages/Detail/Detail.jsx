@@ -1,11 +1,15 @@
 import swal from 'sweetalert';
+import Statistics from '../Statistics/Statistics';
 
 const Detail = ({ detail }) => {
     // console.log(detail)
     const { id, image, description, title, donate } = detail
     const handleDonate = () => {
         const addDonationLists = [];
+        const addDonateLists = [];
         const allDonations = JSON.parse(localStorage.getItem('donations'));
+        const Donate = JSON.parse(localStorage.getItem('donate')) || [];
+
         if (!allDonations) {
             addDonationLists.push(detail);
             localStorage.setItem('donations', JSON.stringify(addDonationLists));
@@ -25,6 +29,12 @@ const Detail = ({ detail }) => {
 
             }
         }
+
+        if (!Donate.includes(detail.donate)) {
+            Donate.push(detail.donate);
+            localStorage.setItem('donate', JSON.stringify(Donate));
+        } 
+        
     }
     return (
         <div>
@@ -42,7 +52,7 @@ const Detail = ({ detail }) => {
                 <h1 className='text-5xl font-semibold'>{title}</h1>
                 <p className='text-xl mt-10 w-full md:w-[800px]'>{description}</p>
             </div>
-
+        
         </div>
     );
 };

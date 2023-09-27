@@ -3,14 +3,13 @@ import { useEffect, useState } from 'react';
 
 const Statistics = () => {
     const [statistics, setStatistics] = useState([])
-    const [data, setData] = useState([
-        { name: 'Group A', },
-        { name: 'Group B', },
-    ]);
+    const [data, setData] = useState([]);
     useEffect(() => {
-        const statisticsItems = JSON.parse(localStorage.getItem('donate'));
+        const statisticsItems = JSON.parse(localStorage.getItem('donate')) || []
         if (detailsItems) {
-            const total = 1855
+            console.log(detailsItems)
+            console.log(statisticsItems)
+            const total = 1855;
             setStatistics(statisticsItems)
             console.log(statisticsItems)
             let sum = 0
@@ -38,18 +37,7 @@ const Statistics = () => {
     const detailsItems = JSON.parse(localStorage.getItem('donations'));
 
     // Specify the ID you want to find
-    const targetId = 2; // Replace with the ID you are looking for
 
-    // Use the find method to find the item with the matching ID
-    const specificItem = detailsItems.find((item) => item.id === targetId);
-
-    if (specificItem) {
-        // Do something with the specific item
-        console.log(specificItem);
-    } else {
-        // Item with the specified ID was not found
-        console.log('Item not found');
-    }
 
     const COLORS = ['#00C49F', '#FF444A'];
     return (
@@ -67,7 +55,9 @@ const Statistics = () => {
                         cy="50%"
                         outerRadius={80}
                         fill="#F6546A" // Fill color for the pie
-                        label
+                        label={({ percent }) =>
+                            ` ${(percent * 100).toFixed(2)}%`
+                        }
                         labelLine={true}
                     >
                         {data.map((entry, index) => (

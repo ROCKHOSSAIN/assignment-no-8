@@ -30,9 +30,9 @@ const Donations = () => {
                     }
                 </div>
             }
-            <div className={datalength === detail.length && 'hidden'}>
+            <div className={detail.length>4 && datalength !== detail.length ? 'visible' : 'hidden'}>
 
-                <button onClick={()=>setDataLength(detail.length)} className='mt-10 p-5 bg-green-600 block mx-auto'>
+                <button onClick={()=>setDataLength(detail.length)} className='mt-10 p-4 bg-green-600 block mx-auto text-white'>
                    Show All
                 </button>
             </div>

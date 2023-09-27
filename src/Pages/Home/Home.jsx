@@ -13,7 +13,8 @@ const Home = () => {
         console.log(search)
         e.preventDefault();
         if (search.length) {
-            const filterCampaigns = fullCampains.filter((campaign) => campaign.category.toLowerCase() === search.toLowerCase());
+            const filterCampaigns = campaigns.filter((campaign) => campaign.category.toLowerCase() === search.toLowerCase());
+            setfullCampaigns(filterCampaigns)
             console.log(filterCampaigns)
             if (filterCampaigns) {
                 setsearchValue(filterCampaigns);
@@ -53,7 +54,7 @@ const Home = () => {
 
         </div>
             {/* <Banner></Banner> */}
-            <Campaigns campaigns={campaigns}></Campaigns>
+            <Campaigns campaigns={fullCampains}></Campaigns>
 
         </div>
     );
